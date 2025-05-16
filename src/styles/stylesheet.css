@@ -1,0 +1,33 @@
+    body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    margin: 10px;
+    background-color:blueviolet;
+}
+
+main{
+    background-color:rgb(183, 132, 231);
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    content: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1{
+    display: flex;
+    justify-items: start;
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color:rgb(245, 239, 250);
+    padding:10px;
+    content: 10px;
+    width: 80%;
+    border-radius:20px;
+}
