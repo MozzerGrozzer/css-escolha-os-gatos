@@ -11,18 +11,21 @@
 <body>
     <main>
         <h1>você já viu esse gato?</h1>
-        <h3>notifique se você já viu esse gato</h3>
+        <h3>Notifique se já viu esse gato logo abaixo</h3>
     </main>
     
-    <img src="./src/assets/img/20230921_193403.jpg" alt="Gato 1">
+<!-- <img id="random-image" src="randomImagePicker.js" alt="Random Image"/>
+    <script src="randomImagePicker.js"></script>  era para funcionar mas não funcionou, brigado copilot-->
+
+    <img src="./src/assets/img/20230923_220905.jpg" alt="Uma gato totalmente aleatório">
     
     <form action="resposta">
         <fieldset>
             <legend>Você já viu esse gato?</legend>
             <label for="yes_o_no">Responda abaixo</label>
             <br>
-            <input id="radio_sim" type="radio" name="sim"> sim
-            <input id="radio_não" type="radio" name="não"> não
+            <input id="radio_sim" type="radio" name="radio" value="sim"> sim
+            <input id="radio_não" type="radio" name="radio" value="Não"> não <!-- Quando o nome é igual e o valor é diferente só um dos radios é acionado. Quem foi o nerd que pensou nessa caceta???-->
         </fieldset>
         <button> próximo </button>
     </form>
